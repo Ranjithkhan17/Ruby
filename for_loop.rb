@@ -19,3 +19,16 @@ Like loops, iterators are methods that loop over a given set of data and perform
 2.times {puts"This is iterators"}
 
 puts "*****************************************"
+
+=begin
+Here, the each iterator is called using the dot operator. 
+The each iterator loops through all the elements in the array, in order, and 
+executes the block defined inside the curly braces for each element.
+=end
+
+days = ['monday', 'Tuesday', 'wednesday', 'Thursday', 'Friday']
+days.each {|day| puts day}
+
+4.times do
+    puts "This is my laptop"
+end
